@@ -13,6 +13,9 @@
 		CE76051A2592210E0046BBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7605182592210E0046BBC5 /* Main.storyboard */; };
 		CE76051C259221100046BBC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE76051B259221100046BBC5 /* Assets.xcassets */; };
 		CE76051F259221100046BBC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE76051D259221100046BBC5 /* LaunchScreen.storyboard */; };
+		CE76052825922BC30046BBC5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76052725922BC30046BBC5 /* SignInViewController.swift */; };
+		CE76052B25923F490046BBC5 /* CandyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76052A25923F490046BBC5 /* CandyViewController.swift */; };
+		CEC9B4DC25931693000B7E95 /* ShowAnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC9B4DB25931693000B7E95 /* ShowAnimateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		CE76051B259221100046BBC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE76051E259221100046BBC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE760520259221100046BBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE76052725922BC30046BBC5 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CE76052A25923F490046BBC5 /* CandyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyViewController.swift; sourceTree = "<group>"; };
+		CEC9B4DB25931693000B7E95 /* ShowAnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAnimateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				CE7605142592210E0046BBC5 /* SceneDelegate.swift */,
 				CE7605162592210E0046BBC5 /* ViewController.swift */,
 				CE7605182592210E0046BBC5 /* Main.storyboard */,
+				CEC9B4DB25931693000B7E95 /* ShowAnimateViewController.swift */,
+				CE76052A25923F490046BBC5 /* CandyViewController.swift */,
+				CE76052725922BC30046BBC5 /* SignInViewController.swift */,
 				CE76051B259221100046BBC5 /* Assets.xcassets */,
 				CE76051D259221100046BBC5 /* LaunchScreen.storyboard */,
 				CE760520259221100046BBC5 /* Info.plist */,
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE76052B25923F490046BBC5 /* CandyViewController.swift in Sources */,
+				CE76052825922BC30046BBC5 /* SignInViewController.swift in Sources */,
 				CE7605172592210E0046BBC5 /* ViewController.swift in Sources */,
+				CEC9B4DC25931693000B7E95 /* ShowAnimateViewController.swift in Sources */,
 				CE7605132592210E0046BBC5 /* AppDelegate.swift in Sources */,
 				CE7605152592210E0046BBC5 /* SceneDelegate.swift in Sources */,
 			);
